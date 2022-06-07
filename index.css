@@ -34,3 +34,69 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
+.seccion-info {
+    background-color: #042b5e;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 17%, rgba(15,15,177,1) 100%);
+}
+
+.seccion-info h2 {
+    margin: 0px;
+    padding: 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.2em;
+    text-transform: uppercase;
+}
+
+.seccion-info h4 {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.3em;
+}
+.container-info{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.container-img-info {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-img-info img {
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-img-info p {
+    color: black;
+    font-size: 1.4em;
+    width: 70%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section{
+    width: 100%;
+    
+    background: linear-gradient(90deg, rgba(255,255,255,1) 17%, rgba(15,15,177,1) 100%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1em;
+    display: inline-block;
+}
